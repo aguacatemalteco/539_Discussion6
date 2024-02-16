@@ -88,25 +88,6 @@ h1, h2, h3{
     margin: 0 auto;
 }
 
-@media screen and (min-width: 800px){
-    .grid{
-        /*Set width, margin, border properties, background color, and grid properties */
-        display: grid;
-        width: 90%;
-        margin: 0 auto;
-        border-radius: 15px;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 10px;
-    }
-
-    .grid img{
-        /* Set width, margin, and display */
-        display: block;
-        border: 1px solid #000000;
-        margin: 0 auto;
-    }
-}
-
 .grid div:nth-child(3n+1)  {
     /* Set box shadow */
     box-shadow: 2px 3px #000000;
@@ -139,4 +120,23 @@ p{
     line-height: 100%;
     margin: 0 0 20px 45px;
     list-style-image: url("../images/sketchbook.png");
+}
+
+@media screen and (min-width: 800px){
+    .grid{
+        /*Set width, margin, border properties, background color, and grid properties */
+        display: grid;
+        width: 90%;
+        margin: 0 auto;
+        border-radius: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 10px;
+    }
+
+    .grid img{
+        /* Set width, margin, and display */
+        display: block;
+        border: 1px solid #000000;
+        margin: 0 auto;
+    }
 }
